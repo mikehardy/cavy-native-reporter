@@ -12,9 +12,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/author/CavyNativeReporter.git", :tag => "master" }
   s.source_files  = "CavyNativeReporter/**/*.{h,m}"
   s.requires_arc = true
-
-
-  s.dependency "React"
-  #s.dependency "others"
-
+  s.dependency "React-Core"
 end
