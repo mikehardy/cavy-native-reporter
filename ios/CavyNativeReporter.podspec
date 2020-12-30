@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.license      = package["license"]
   s.author       = { "author" => "dev@pixielabs.io" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/author/CavyNativeReporter.git", :tag => "master" }
-  s.source_files  = "CavyNativeReporter/**/*.{h,m}"
+  s.source       = { :git => "https://github.com/pixielabs/cavy-native-reporter.git", :tag => "v#{s.version}" }
+  s.source_files  = "*.{h,m}"
   s.requires_arc = true
   s.dependency "React-Core"
 end
